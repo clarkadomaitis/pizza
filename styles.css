@@ -1,0 +1,117 @@
+<style>.gray-text {
+    color: gray;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia;
+}
+
+body {
+    background-color: #DC6130
+}
+
+title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia;
+    text-transform: capitalize;
+    color: white;
+    background-color: #761DED;
+    padding: 30px;
+    C9B704
+}
+
+p {
+    text-align: center;
+    font-family: Lobster;
+    font-size: large;
+}
+
+p2 {
+    text-align: center;
+    font-family: Lobster;
+}
+
+.boxed {
+    border: 10px dotted #761DED;
+    background-color: #A8D3F2 width: auto;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+    font-family: Lobster;
+    color: purple;
+}
+
+img {
+    max-width: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+iframe {}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bullet1 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.bullet2 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.img_holder,
+.text {
+    font-size: 1.4em;
+    padding: 10px;
+}
+
+.bigpizza {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_holder {
+    flex-basis: 50%;
+    width: 200px;
+    height: auto;
+    font-size: 1.3em;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.container {
+    text-align: left;
+    font-family: Lobster;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ul {
+    font-family: Lobster;
+    font-size: 20px;
+}
+
+</style>
