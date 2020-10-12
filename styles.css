@@ -126,9 +126,4 @@ img {
 ul {
     font-size: 1em;
 }
-
-@media(min-width: 600px) {
-    display: flex;
-}
-
 </style>
