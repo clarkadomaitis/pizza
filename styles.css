@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    background-color: #DC6130
+    background-color: #F07B2F
 }
 
 title {
@@ -25,7 +25,13 @@ h1 {
     color: white;
     background-color: #761DED;
     padding: 30px;
-    C9B704
+    border-radius: 15%;
+}
+
+/* border-style: solid;
+    border-width: 8px;
+    text-align: left;
+    padding: 10px; */
 }
 
 p {
@@ -42,7 +48,8 @@ p2 {
 .boxed {
     border: 10px dotted #761DED;
     background-color: #A8D3F2 width: auto;
-    padding: 20px;
+    padding: 15px;
+    text-align: center;
     font-size: 1.5em;
 }
 
@@ -50,6 +57,7 @@ footer {
     text-align: center;
     font-family: Lobster;
     color: purple;
+    padding: 25px;
 }
 
 img {
@@ -58,8 +66,6 @@ img {
     margin: auto;
 }
 
-iframe {}
-
 .center {
     display: block;
     margin-left: auto;
@@ -67,51 +73,62 @@ iframe {}
     width: 50%;
 }
 
-.bullet1 {
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: left;
+/*
+.bullets {
+    display: flex;
+    flex-wrap: wrap;
 }
-
-.bullet2 {
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: left;
-}
-
-.img_holder,
-.text {
-    font-size: 1.4em;
-    padding: 10px;
-}
-
+*/
 .bigpizza {
     display: flex;
-    justify-content: space-between;
+    position: relative;
+    flex-basis: 10%;
+    text-align: left;
+    padding: 20px;
+    height: auto;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.bigpie {
+    display: flex;
+    position: relative;
+    flex-basis: 50%;
+    text-align: left;
+    padding: 20px;
+    height: auto;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 .img_holder {
-    flex-basis: 50%;
-    width: 200px;
-    height: auto;
-    font-size: 1.3em;
-    text-align: left;
+    padding: 20px;
     margin-top: 20px;
 }
 
 .container {
+    display: flex;
     text-align: left;
+    position: relative;
+    flex-basis: 50%;
+    font-size: 1.3em;
+    padding: 20px;
+    width: 50%;
     font-family: Lobster;
-    margin-left: 250px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
-    font-family: Lobster;
-    font-size: 20px;
+    font-size: 1em;
+}
+
+@media(min-width: 600px) {
+    display: flex;
 }
 
 </style>
