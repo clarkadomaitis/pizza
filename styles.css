@@ -144,4 +144,8 @@ ul {
     font-size: 1em;
 }
 
+@media query {
+    display: flex !important;
+}
+
 </style>
