@@ -4,12 +4,12 @@
 
 header {
     text-align: center;
-    text-transform: uppercase;
     font-family: Georgia;
 }
 
 body {
-    background-color: #F07B2F
+    /*  background-color: #F07B2F */
+    background-color: #E8813E;
 }
 
 title {
@@ -18,14 +18,27 @@ title {
     font-family: Georgia;
 }
 
+.ontop {
+    display: flex;
+}
+
 h1 {
     text-align: center;
     font-family: Georgia;
-    text-transform: capitalize;
     color: white;
     background-color: #761DED;
     padding: 30px;
     border-radius: 15%;
+    flex-basis: 70%;
+    Margin: auto;
+    width: 60%;
+}
+
+h2 {
+    position: center;
+    text-align: center;
+    font-family: Lobster;
+    font-size: 1.3em;
 }
 
 /* border-style: solid;
@@ -35,6 +48,8 @@ h1 {
 }
 
 p {
+    display: flex;
+    flex-basis: 10%;
     text-align: center;
     font-family: Lobster;
     font-size: large;
@@ -47,7 +62,9 @@ p2 {
 
 .boxed {
     border: 10px dotted #761DED;
-    background-color: #A8D3F2 width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
     padding: 15px;
     text-align: center;
     font-size: 1.5em;
@@ -81,6 +98,19 @@ img {
 */
 .bigpizza {
     display: flex;
+    flex-basis: 10%;
+    position: relative;
+    text-align: left;
+    padding: 15px;
+    height: auto;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.bigpie {
+    display: flex;
     position: relative;
     flex-basis: 10%;
     text-align: left;
@@ -89,24 +119,11 @@ img {
     font-size: 1.3em;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-}
-
-.bigpie {
-    display: flex;
-    position: relative;
-    flex-basis: 50%;
-    text-align: left;
-    padding: 15px;
-    height: auto;
-    font-size: 1.3em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    width: 60%;
 }
 
 .img_holder {
-    padding: 20px;
+    padding: 40px;
     margin-top: 20px;
 }
 
@@ -126,4 +143,5 @@ img {
 ul {
     font-size: 1em;
 }
+
 </style>
